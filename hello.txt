@@ -1,4 +1,12 @@
-폴더에 깃 초기화
-git init\n
-현재 파일을 저장하고 기록
-git add .\n
+-폴더에 깃 초기화
+>git init\n
+
+-현재 파일을 저장하고 기록 / 내가 원하는 파일만 저장하고 싶으면
+>git add .\n / git add 파일명.확장자
+
+-저장하고 이 파일이 어떤 작업을 했는지 기록
+>git commit -m "오늘 처음 만든 git"\n
+
+-git 파일을 수정하고 기록할 때 누가 작성하고 올렸는지 config 설정
+>git config --global user.email "bdt1592@naver.com"\n
+>git config --global user.name "SuHyeon1592"\n
