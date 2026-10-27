@@ -10,3 +10,11 @@
 -git 파일을 수정하고 기록할 때 누가 작성하고 올렸는지 config 설정
 >git config --global user.email "bdt1592@naver.com"\n
 >git config --global user.name "SuHyeon1592"\n
+
+--global : 내 로컬 환경에서 깃 파일을 수정, 추가 할 때는 user.name 사용하겠다
+
+--git config 설정 중에 system, local, global 검색
+--branch가 뭔지
+-- .gitignore가 뭔지 검색
+
+오늘 오후에 들어갈 내용은
